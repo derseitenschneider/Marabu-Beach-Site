@@ -1,0 +1,187 @@
+/*Global Reset*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+}
+
+img {
+  height: 100%;
+  width: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+.preload * {
+  transition: none;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.4rem rgba(244, 233, 252, 0.712);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #222;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #333;
+
+  position: relative;
+}
+
+body.no-overflow {
+  overflow-y: hidden;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #333;
+  font-weight: 700;
+}
+
+li {
+  list-style: none;
+}
+
+/*HEADINGS*/
+
+.subheading {
+  color: #f4e9fc;
+  font-weight: 600;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-bottom: -1rem;
+}
+
+.heading-primary {
+  position: relative;
+  font-family: "Satisfy", cursive;
+  font-size: 8.6rem;
+  color: #f4e9fc;
+  text-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.heading-secondary {
+  /* font-family: "Lilita One", cursive; */
+  font-size: 5.2rem;
+  letter-spacing: -2px;
+  font-weight: 700;
+  margin-bottom: 3.2rem;
+
+  display: block;
+  position: relative;
+}
+
+.heading-tertiary {
+  font-family: "Lato", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+/*BUTTONS*/
+
+.btn {
+  border: none;
+  background: none;
+  display: block;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-link {
+  font-size: 1.8rem;
+  font-family: inherit;
+  font-weight: 700;
+  color: #1c072e;
+}
+
+.btn-link:hover,
+.btn-link:focus {
+  color: #8e24e4;
+  transform: translateY(0%);
+  box-shadow: none;
+  /* transform: scale(1.05); */
+  /* transition: transform 350ms; */
+}
+
+.btn-link::after {
+  content: "";
+  display: block;
+  box-shadow: 0 4px 0 #b066ec;
+  height: 2px;
+  width: 90%;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 350ms;
+}
+
+.btn-link:hover::after,
+.btn-link:focus::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}

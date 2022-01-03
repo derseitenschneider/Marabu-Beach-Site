@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Marabu Beach, das Sextett des Drummers, Komponisten und Arrangeurs Jan
+    Klopfenstein, wurde im Frühjahr 2020 ins Leben gerufen. Die sechs
+    Musiker spielen vornehmlich Eigenkompositionen ihres Bandleaders."
+    />
+
+    <link rel="icon" href="img/Favicons/Favicon-64.png" />
+    <link rel="apple-touch-icon" href="img/Favicons/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <script defer src="js/script.js"></script>
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <title>Marabu Beach</title>
+  </head>
+  <body class="preload no-overflow">
+    <div class="overlay-intro fade-out"></div>
+    <header class="header slideup">
+      <button class="btn btn-nav btn-nav--open fade-in">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="nav-icon open-icon"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+      </button>
+      <div class="header-title">
+        <p class="subheading get-small-sub">Jan Klopfenstein's</p>
+
+        <h1 class="heading-primary get-small-primary">Marabu Beach</h1>
+      </div>
+    </header>
+
+    <nav class="main-nav">
+      <ul class="navigation">
+        <li class="nav nav-about">
+          <button class="btn btn-navigation btn-about">About</button>
+        </li>
+
+        <li class="nav nav-media">
+          <button class="btn btn-navigation btn-media">Media</button>
+        </li>
+
+        <li class="nav nav-band">
+          <button class="btn btn-navigation btn-band">Band</button>
+        </li>
+
+        <li class="nav nav-contact">
+          <button class="btn btn-navigation btn-contact">Kontakt</button>
+        </li>
+      </ul>
+      <button class="btn btn-nav btn-nav--close hide">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="nav-icon close-icon"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+      </button>
+    </nav>
+
+    <main class="section-marabu">
+      <button class="btn container-marabu container-marabu--one">
+        <figure class="img-container">
+          <img
+            class="marabu marabu--one"
+            src="img/Marabu1.webp"
+            alt="Drawn marabu bird"
+            width="616"
+            height="600"
+          />
+          <span class="label label--marabu-one">About</span>
+        </figure>
+      </button>
+
+      <button class="btn container-marabu container-marabu--two">
+        <figure class="img-container">
+          <img
+            class="marabu marabu--two"
+            src="img/Marabu4.webp"
+            alt="Drawn marabu bird"
+            width="720"
+            height="480"
+          />
+          <span class="label label--marabu-two">Media</span>
+        </figure>
+      </button>
+
+      <button class="btn container-marabu container-marabu--three">
+        <figure class="img-container">
+          <img
+            class="marabu marabu--three"
+            src="img/Marabu2.webp"
+            alt="Drawn marabu bird"
+            width="467"
+            height="600"
+          />
+          <span class="label label--marabu-three">Band</span>
+        </figure>
+      </button>
+
+      <div class="container-cookie">
+        <div class="text-cookie">
+          Diese Website verwendet Cookies - nähere Informationen dazu und zu
+          Ihren Rechten finden Sie in unserer
+          <button class="btn btn-link btn-link--impressum">
+            Datenschutzerklärung</button
+          >. Klicken Sie auf "Ich stimme zu", um Cookies zu akzeptieren und
+          direkt unsere Webseite besuchen zu können.
+        </div>
+        <button class="btn btn-cookie">Ich stimme zu</button>
+      </div>
+    </main>
+
+    <aside class="modals">
+      <div class="modal modal--about">
+        <h2 class="heading-secondary">
+          Willkommen am <span class="last-word">Marabu Beach</span>
+        </h2>
+        <p class="modal-text">
+          <strong
+            >Tropische Vögel fliegen umher, es riecht nach exotischen Gewürzen,
+            die Strassen des Hinterlandes tragen ungewöhnliche Namen, das Gefühl
+            von Ferien macht sich breit.
+          </strong>
+          <br />
+          <br />
+
+          Doch Vorsicht: Malibu ist es nicht; kein Ort des Massentourismus,
+          keine uniformen Strandliegen und Sonnenschirme verunstalten diesen
+          Strand.
+
+          <br />
+          <br />Stattdessen dringen schräge Gesänge aus stählernen Schnäbeln,
+          dunkle Klangwolken ziehen über den Himmel, begleitet von den Wellen
+          einer wundervoll groovenden Rhyhm Section. <br />
+          <br />
+          Marabu Beach, das Sextett des Drummers, Komponisten und Arrangeurs Jan
+          Klopfenstein, wurde im Frühjahr 2020 ins Leben gerufen. Die sechs
+          Musiker spielen vornehmlich Eigenkompositionen ihres Bandleaders. Es
+          erwarten Sie Street Beats mit anspruchsvollen Bläsersätzen, groovy und
+          mitunter schräg, unter Umgehung der üblichen Klischees und doch auf
+          zeitgenössische Art der Geschichte des Jazz verpflichtet.
+          <br /><br />
+          <figure class="container-img-about">
+            <img
+              src="img/Marabu1.webp"
+              class="marabu-about"
+              alt="Marabu Vogel"
+              width="616"
+              height="600"
+            />
+          </figure>
+        </p>
+        <div class="bottom-row">
+          <div class="container-btn--media">
+            <button class="btn btn-link btn-link--media">
+              Hören Sie selbst.
+            </button>
+          </div>
+        </div>
+
+        <button class="btn btn-close btn--close-modal">
+          <ion-icon name="close-outline" class="icon-close-modal"></ion-icon>
+        </button>
+      </div>
+
+      <div class="modal modal--media">
+        <h2 class="heading-secondary">Media</h2>
+        <div class="container-media">
+          <div class="container-songs">
+            <h3 class="heading-tertiary">Songs</h3>
+            <ul class="songs">
+              <li class="container-player">
+                <div class="text-player">
+                  <p class="song-title">Marabu Stomp</p>
+                  <p class="song-sub">Let's do the Marabu</p>
+                </div>
+
+                <div class="controller-player">
+                  <audio id="marabu-stomp" class="player" controls>
+                    <source src="audio/Marabu-Stomp.mp3" type="audio/mp3" />
+                  </audio>
+                </div>
+              </li>
+
+              <li class="container-player">
+                <div class="text-player">
+                  <p class="song-title">This One Is For Bruno</p>
+                  <p class="song-sub">Schlaflied für einen Teddybären</p>
+                </div>
+
+                <div class="controller-player">
+                  <audio id="brunos-song" class="player" controls>
+                    <source
+                      src="audio/This-One-Is-For-Bruno.mp3"
+                      type="audio/mp3"
+                    />
+                  </audio>
+                </div>
+              </li>
+
+              <li class="container-player">
+                <div class="text-player">
+                  <p class="song-title">Turmeric</p>
+                  <p class="song-sub">Kurkuma macht das Curry gelb</p>
+                </div>
+
+                <div class="controller-player">
+                  <audio id="tumeric" class="player" controls>
+                    <source src="audio/Turmeric.mp3" type="audio/mp3" />
+                  </audio>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="container-imgs">
+            <h3 class="heading-tertiary">Fotos Recording-Session</h3>
+
+            <div class="container-grid">
+              <figure class="btn img-recording">
+                <img
+                  src="img/Band/Recording-Session/Rasmus-Nissen.webp"
+                  alt="Foto von Rasmus Nissen an der Gitarre"
+                  width="884"
+                  height="884"
+                />
+              </figure>
+              <figure class="btn img-recording">
+                <img
+                  src="img/Band/Recording-Session/Cesar-Gonin.webp"
+                  alt="Foto von Cesar Gonin am Bass"
+                  width="884"
+                  height="884"
+                />
+              </figure>
+              <figure class="btn img-recording">
+                <img
+                  src="img/Band/Recording-Session/Jan-Klopfenstein.webp"
+                  alt="Foto von Jan Klopfenstein am Schlagzeug"
+                  width="884"
+                  height="884"
+                />
+              </figure>
+              <figure class="btn img-recording">
+                <img
+                  src="img/Band/Recording-Session/Julia-Rueffert.webp"
+                  alt="Foto von Julia Rüffert an der Posaune"
+                  width="884"
+                  height="884"
+                />
+              </figure>
+
+              <figure class="btn img-recording">
+                <img
+                  src="img/Band/Recording-Session/Julian-Eisinger.webp"
+                  alt="Foto von Julian Eisinger am Saxofon"
+                  width="884"
+                  height="884"
+                />
+              </figure>
+              <figure class="btn img-recording">
+                <img
+                  src="img/Band/Recording-Session/Felix-Grandjean.webp"
+                  alt="Foto von Felix Granjean an der Trompete"
+                  width="884"
+                  height="884"
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+
+        <button class="btn btn-close btn--close-modal">
+          <ion-icon name="close-outline" class="icon-close-modal"></ion-icon>
+        </button>
+      </div>
+
+      <div class="modal modal--band">
+        <button class="btn btn-close btn--close-modal">
+          <ion-icon name="close-outline" class="icon-close-modal"></ion-icon>
+        </button>
+        <h2 class="heading-secondary">Die Band</h2>
+
+        <div class="container-band">
+          <div class="row-band row-band--left">
+            <div class="img-box img-box--left">
+              <figure class="container-img">
+                <div class="img-overlay img-overlay--left"></div>
+                <img
+                  src="img/Band/Portraits/Jan.webp"
+                  class="img-band"
+                  alt="Foto von Jan Klopfenstein"
+                  width="401"
+                  height="401"
+                />
+              </figure>
+            </div>
+            <div class="container-description container-description--left">
+              <div class="heading-band heading-band--left">
+                <h3>Jan Klopfenstein</h3>
+                <span class="heading-band-instrument"
+                  >Schlagzeug/Komposition</span
+                >
+              </div>
+
+              <div class="textbox-band">
+                <p class="modal-text">
+                  Schon von meinem ersten Taschengeld kaufte ich mir in den
+                  frühen 70ern Platten der damals angesagten Glam Rock Bands.
+                  Später ging mein Geschmack in Richtung Progressive Rock und ab
+                  den 80ern entdeckte ich den Jazz. Als Jugendlicher begann ich,
+                  Schlagzeuglektionen zu nehmen. Schon bald wusste ich, dass ich
+                  das Instrument zu meinem Beruf machen wollte. Ich absolvierte
+                  die Berufsabteilung der Swiss Jazz School in Bern und spielte
+                  abwechselnd Jazz, Funk und Latin im Trio und Quartett, später
+                  Musicals und Bigbands und begleitete verschiedene Chöre.
+                  MARABU BEACH ist meine persönlichste Band, sie spielt meine
+                  eigenen Kompositionen in meinen eigenen Arrangements.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row-band row-band--right">
+            <div class="container-description container-description--right">
+              <div class="heading-band heading-band--right">
+                <h3>Rasmus Nissen</h3>
+                <span class="heading-band-instrument">Gitarre</span>
+              </div>
+
+              <div class="textbox-band">
+                <p class="modal-text">
+                  Rasmus Nissen wurde 1982 in Tønder (Süd-Jütland, Dänemark)
+                  geboren. Er studierte Jazz-Gitarre am Conservatorium van
+                  Amsterdam und machte seinen Master an der Hochschule der
+                  Künste Bern. Rasmus Nissen ist seit frühen Lebensjahren ein
+                  aktiver und vielseitiger Gitarrist. Im Laufe der Jahre konnte
+                  er mit unterschiedlichen Formationen Tourneen durch u.a.
+                  Dänemark, Deutschland, Litauen, Frankreich, Vietnam, Libanon,
+                  Syrien, Jordan, Palästina und Süd-Korea durchführen. Mit
+                  seiner Frau lebt Rasmus Nissen seit 2012 in der Schweiz. Er
+                  hat u.a. mit folgenden Bands, Musikerinnen und Musikern
+                  zusammengearbeitet: Ellen ten Damme (NL), Stefania Kaye,
+                  Anshelle, N.Y. Cole, Charlie Weibel, Pete Borel, Richard
+                  Köchli, Regula Haener.
+                </p>
+              </div>
+            </div>
+            <div class="img-box img-box--right">
+              <figure class="container-img">
+                <div class="img-overlay img-overlay--right"></div>
+                <img
+                  src="img/Band/Portraits/Rasmus.webp"
+                  class="img-band"
+                  alt="Foto von Rasmus Nissen"
+                  width="700"
+                  height="700"
+                />
+              </figure>
+            </div>
+          </div>
+
+          <div class="row-band row-band--left">
+            <div class="img-box img-box--left">
+              <figure class="container-img">
+                <div class="img-overlay img-overlay--left"></div>
+                <img
+                  src="img/Band/Portraits/Cesar.webp"
+                  class="img-band"
+                  alt="Foto von Cesar Gonin"
+                  width="700"
+                  height="700"
+                />
+              </figure>
+            </div>
+            <div class="container-description container-description--left">
+              <div class="heading-band heading-band--left">
+                <h3>Cesar Gonin</h3>
+                <span class="heading-band-instrument">Bass</span>
+              </div>
+
+              <div class="textbox-band">
+                <p class="modal-text">
+                  César Gonin hat sie gesehen, die grossen Bühnen der Welt. Er
+                  hat sie nicht nur gesehen, sondern darauf gespielt. In Ländern
+                  wie den USA, Kanada, Japan, Russland, Israel und England ist
+                  César Gonin als Mitglied der erfolgreichsten Schweizer
+                  Metal-Bands «Breakdown of Sanity» und «Eluveitie» aufgetreten.
+                  Er ist aber nicht einfach nur ein Rockstar, sondern in erster
+                  Linie ein «Bärner Giu», geboren und aufgewachsen in Worb, der
+                  die Musik seit seiner Kindheit liebt und sie zu seinem Beruf
+                  gemacht hat. Der 30-jährige hat an den Musikhochschulen Luzern
+                  und Bern Jazz und Musikpädagogik studiert.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row-band row-band--right">
+            <div class="container-description container-description--right">
+              <div class="heading-band heading-band--right">
+                <h3>Julia Rüffert</h3>
+                <span class="heading-band-instrument">Posaune</span>
+              </div>
+              <div class="textbox-band">
+                <p class="modal-text">
+                  Julia Rüffert spielt Posaune und hat das auch studiert,
+                  nämlich in Luzern. Danach hatte sie vom Studieren noch nicht
+                  genug und ging für ein Kompositionsstudium nach Bern. Hier
+                  lebt sie immer noch und ist beschäftigt mit Üben, Unterrichten
+                  und Komponieren. Sie spielt unter anderem in der Band "Hyla
+                  Crucifer" und im "Seltenen Orchester" und macht eigentlich
+                  alles zwischen Bigband und Trio. Auftritte oder Aufnahmen mit
+                  Lisa Hoppe, Jim Black, Nils Fischer, Wolfgang Puschnig,
+                  Clemens Kuratle, William Parker, dem Swiss Jazz Orchestra und
+                  vielen anderen bereicherten ihren Erfahrungsschatz.
+                </p>
+                <a
+                  href="http://www.juliarueffert.ch"
+                  class="btn-link"
+                  target="_blank"
+                  >Julia's Website</a
+                >
+              </div>
+            </div>
+            <div class="img-box img-box--right">
+              <figure class="container-img">
+                <div class="img-overlay img-overlay--right"></div>
+                <img
+                  src="img/Band/Portraits/Julia.webp"
+                  class="img-band"
+                  alt="Foto von Julia Rüffert"
+                  width="700"
+                  height="700"
+                />
+              </figure>
+            </div>
+          </div>
+
+          <div class="row-band row-band--left">
+            <div class="img-box img-box--left">
+              <figure class="container-img">
+                <div class="img-overlay img-overlay--left"></div>
+                <img
+                  src="img/Band/Portraits/Julian.webp"
+                  class="img-band"
+                  alt="Foto von Julian Eisinger"
+                  width="700"
+                  height="700"
+                />
+              </figure>
+            </div>
+            <div class="container-description container-description--left">
+              <div class="heading-band heading-band--left">
+                <h3>Julian Eisinger</h3>
+                <span class="heading-band-instrument">Saxofon</span>
+              </div>
+
+              <div class="textbox-band">
+                <p class="modal-text">
+                  Julian Eisinger studierte Jazz an der Hochschule der Künste
+                  Bern. Sein Hauptinstrument ist das Saxofon. Nach dem
+                  Jazz-Bachelor absolvierte er an derselben Hochschule ein
+                  Studium in Schulmusik II und ist aktuell als Musiklehrer und
+                  Jazz-Saxofonist tätig. Als Instrumentalist spielt er in
+                  unterschiedlichen Ensembles im Raum Bern. Seit drei Jahren
+                  lebt er mit seiner Frau und seiner Tochter in Schüpfen.
+                </p>
+                <a
+                  href="http://www.julian-eisinger.ch"
+                  class="btn-link"
+                  target="_blank"
+                  >Julian's Website</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="row-band row-band--right">
+            <div class="container-description container-description--right">
+              <div class="heading-band heading-band--right">
+                <h3>Felix Grandjean</h3>
+                <span class="heading-band-instrument">Trompete</span>
+              </div>
+              <div class="textbox-band">
+                <p class="modal-text">
+                  Geboren und aufgewachsen in Bern ist Felix Grandjean heute
+                  fester Bestandteil der berner Jazzszene. Nach dem
+                  Talentfördergymnasium Hofwil absolvierte er sein Musikstudium
+                  an der Hochschule der Künste Bern und schloss dieses 2021 mit
+                  dem Master of Arts in Music – Pedagogy ab. Während seines
+                  Studiums genoss er unter anderem Unterricht bei Bert Joris,
+                  Matthieu Michel und Ralph Alessi. Er leitet seine eigene Band
+                  „Beaufort“ und ist zusätzlich in vielen anderen Projekten
+                  unterschiedlicher Stilistiken aktiv.
+                </p>
+              </div>
+            </div>
+            <div class="img-box img-box--right">
+              <figure class="container-img">
+                <div class="img-overlay img-overlay--right"></div>
+                <img
+                  src="img/Band/Portraits/Felix.webp"
+                  class="img-band"
+                  alt="Foto von Felix Granjean"
+                  width="700"
+                  height="700"
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal modal--contact">
+        <div class="container-form">
+          <h2 class="heading-secondary">Kontakt</h2>
+          <form
+            action="hello.php"
+            method="post"
+            class="contact-form"
+            id="contact-form"
+          >
+            <ul class="form">
+              <li class="form-el form-input">
+                <input
+                  class="input-field"
+                  type="text"
+                  name="name"
+                  id="name"
+                  required
+                />
+                <label class="label-input" for="name"
+                  ><span class="label-text">Name</span>
+                </label>
+              </li>
+
+              <li class="form-el form-input">
+                <input
+                  class="input-field"
+                  type="text"
+                  name="email"
+                  id="email"
+                  required
+                />
+                <label class="label-input" for="email"
+                  ><span class="label-text">E-Mail</span></label
+                >
+              </li>
+              <li class="form-el form-input">
+                <input
+                  class="input-field"
+                  type="text"
+                  name="email2"
+                  id="email2"
+                  tabindex="-2"
+                />
+                <label class="label-input" for="email"
+                  ><span class="label-text">E-Mail</span></label
+                >
+              </li>
+
+              <li class="form-el form-message">
+                <textarea
+                  class="text-field"
+                  name="message"
+                  id="message"
+                  rows="7"
+                  cols="50"
+                  required
+                ></textarea>
+                <label class="label-message" for="message"
+                  ><span class="label-message-text">Nachricht</span></label
+                >
+              </li>
+              <li class="form-el btn form-btn">
+                <input
+                  class="btn-submit"
+                  type="submit"
+                  id="submit"
+                  name="submit"
+                  value="Abschicken"
+                />
+              </li>
+            </ul>
+          </form>
+          <!-- <button
+            type="submit"
+            form="contact-form"
+            value="Abschicken"
+            class="btn-submit"
+          >
+            Abschicken
+          </button> -->
+        </div>
+        <div class="form-answer">
+          <h3 class="heading-tertiary">Vielen Dank</h3>
+          <p class="text-form-answer">
+            Danke für deine Nachricht, wir melden uns bei dir!
+          </p>
+        </div>
+
+        <button class="btn btn-close btn--close-modal">
+          <ion-icon name="close-outline" class="icon-close-modal"></ion-icon>
+        </button>
+        <iframe name="frame"></iframe>
+      </div>
+
+      <div class="modal modal--impressum">
+        <h2 class="heading-secondary">Impressum &amp; Datenschutz</h2>
+        <h3 class="heading-tertiary">Verantwortlich für den Inhalt</h3>
+        <p class="modal-text">
+          Jan Klopfenstein <br />
+          Schreinerweg 21 <br />
+          3012 Bern<br />
+          <a href="tel:+41(0)313019182">+41 (0)31 301 91 82</a>
+          <br />
+          <a href="tel:++41(0)793115549">+41 (0)79 311 55 49</a>
+          <br />
+          <a href="mailto:janklopfenstein28@gmail.com">
+            janklopfenstein28@gmail.com</a
+          >
+        </p>
+        <h3 class="heading-tertiary">Kommentare</h3>
+        <p class="modal-text">
+          Wenn Besucher Kommentare auf der Website schreiben, sammeln wir die
+          Daten, die im Kommentar-Formular angezeigt werden, ausserdem die
+          IP-Adresse des Besuchers und den User-Agent-String (damit wird der
+          Browser identifiziert), um die Erkennung von Spam zu unterstützen. Aus
+          Ihrer E-Mail-Adresse kann eine anonymisierte Zeichenfolge erstellt
+          (auch Hash genannt) und dem Gravatar-Dienst übergeben werden, um zu
+          prüfen, ob Sie diesen benutzt. Die Datenschutzerklärung des
+          Gravatar-Dienstes finden Sie hier: https://automattic.com/privacy/.
+          Nachdem Ihr Kommentar freigegeben wurde, ist Ihr Profilbild öffentlich
+          im Kontext Ihres Kommentars sichtbar.
+        </p>
+        <h3 class="heading-tertiary">Medien</h3>
+        <p class="modal-text">
+          Wenn Sie ein registrierter Benutzer sind und Fotos auf diese Website
+          laden, sollten Sie vermeiden, Fotos mit einem EXIF-GPS-Standort
+          hochzuladen. Besucher dieser Website könnten Fotos, die auf dieser
+          Website gespeichert sind, downloaden und deren Standort-Informationen
+          extrahieren.
+        </p>
+        <h3 class="heading-tertiary">Cookies</h3>
+        <p class="modal-text">
+          Wenn Sie einen Kommentar auf unserer Website schreiben, kann das eine
+          Einwilligung sein, Ihren Namen, E-Mail-Adresse und Website in Cookies
+          zu speichern. Dies ist eine Komfortfunktion, damit Sie nicht, wenn Sie
+          einen weiteren Kommentar schreiben, all diese Daten erneut eingeben
+          müssen. Diese Cookies werden ein Jahr lang gespeichert. Falls Sie ein
+          Konto haben und Sie sich auf dieser Website anmelden, werden wir ein
+          temporäres Cookie setzen, um festzustellen, ob Ihr Browser Cookies
+          akzeptiert. Dieses Cookie enthält keine personenbezogenen Daten und
+          wird verworfen, wenn Sie Ihren Browser schliessen. Wenn Sie sich
+          anmelden, werden wir einige Cookies einrichten, um Ihre
+          Anmeldeinformationen und Anzeigeoptionen zu speichern. Anmelde-Cookies
+          verfallen nach zwei Tagen und Cookies für die Anzeigeoptionen nach
+          einem Jahr. Falls Sie bei der Anmeldung «Angemeldet bleiben»
+          auswählen, wird Ihre Anmeldung zwei Wochen lang aufrechterhalten. Mit
+          der Abmeldung aus Ihrem Konto werden die Anmelde-Cookies gelöscht.
+          Wenn Sie einen Artikel bearbeiten oder veröffentlichen, wird ein
+          zusätzlicher Cookie in Ihrem Browser gespeichert. Dieser Cookie
+          enthält keine personenbezogenen Daten und verweist nur auf die
+          Beitrags-ID des Artikels, den Sie gerade bearbeitet haben. Der Cookie
+          verfällt nach einem Tag.
+        </p>
+
+        <h3 class="heading-tertiary">
+          Eingebettete Inhalte von anderen Websites
+        </h3>
+        <p class="modal-text">
+          Beiträge auf dieser Website können eingebettete Inhalte beinhalten
+          (z.B. Videos, Bilder, Beiträge etc.). Eingebettete Inhalte von anderen
+          Websites verhalten sich exakt so, als ob der Besucher die andere
+          Website besucht hätte. Diese Websites können Daten über Sie sammeln,
+          Cookies benutzen, zusätzliche Tracking-Dienste von Dritten einbetten
+          und Ihre Interaktion mit diesem eingebetteten Inhalt aufzeichnen,
+          inklusive Ihrer Interaktion mit dem eingebetteten Inhalt, falls Sie
+          ein Konto haben und auf dieser Website angemeldet sind.
+        </p>
+        <h3 class="heading-tertiary">Mit wem wir Ihre Daten teilen</h3>
+        <p class="modal-text">
+          Wenn Sie eine Zurücksetzung des Passworts beantragen, wird Ihre
+          IP-Adresse in der E-Mail zur Zurücksetzung enthalten sein.
+        </p>
+        <h3 class="heading-tertiary">Wie lange wir Ihre Daten speichern</h3>
+        <p class="modal-text">
+          Wenn Sie einen Kommentar schreiben, wird dieser inklusive Metadaten
+          zeitlich unbegrenzt gespeichert. Auf diese Art können wir
+          Folgekommentare automatisch erkennen und freigeben, anstatt sie in
+          einer Moderations-Warteschlange festzuhalten. Für Benutzer, die sich
+          auf unserer Website registrieren, speichern wir zusätzlich die
+          persönlichen Informationen, die sie in ihren Benutzerprofilen angeben.
+          Alle Benutzer können jederzeit ihre persönlichen Informationen
+          einsehen, verändern oder löschen (der Benutzername kann nicht
+          verändert werden). Administratoren der Website können diese
+          Informationen ebenfalls einsehen und verändern.
+        </p>
+        <h3 class="heading-tertiary">Welche Rechte Sie an Ihren Daten haben</h3>
+        <p class="modal-text">
+          Wenn Sie ein Konto auf dieser Website besitzen oder Kommentare
+          geschrieben haben, können Sie einen Export Ihrer personenbezogenen
+          Daten bei uns anfordern, inklusive aller Daten, die Sie uns mitgeteilt
+          haben. Darüber hinaus können Sie die Löschung aller personenbezogenen
+          Daten, die wir von Ihnen gespeichert haben, anfordern. Dies umfasst
+          nicht die Daten, die wir aufgrund administrativer, rechtlicher oder
+          sicherheitsrelevanter Notwendigkeiten aufbewahren müssen.
+        </p>
+        <h3 class="heading-tertiary">Wohin wir Ihre Daten senden</h3>
+        <p class="modal-text">
+          Besucher-Kommentare könnten von einem automatisierten Dienst zur
+          Spam-Erkennung untersucht werden.
+        </p>
+        <button class="btn btn-close btn--close-modal">
+          <ion-icon name="close-outline" class="icon-close-modal"></ion-icon>
+        </button>
+      </div>
+
+      <div class="overlay overlay-hidden"></div>
+    </aside>
+    <footer class="footer fade-in">
+      <div class="social-row">
+        <!-- <a href="#" class="facebook">
+          <ion-icon name="logo-facebook" class="icon icon-facebook"></ion-icon
+        ></a>
+
+     <a href="#" class="instagram"
+          ><ion-icon
+            name="logo-instagram"
+            class="icon icon-instagram"
+          ></ion-icon
+        ></a>  -->
+
+        <button class="btn btn-link--form">
+          <ion-icon name="mail-outline" class="icon icon-mail"></ion-icon>
+        </button>
+      </div>
+      <div class="text-row">
+        <p class="footer-text">
+          Marabu Beach Band &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          All rights reserved | Webdesign by
+          <a href="http://www.brianboy.ch" target="_blank" class="webdesign"
+            >Brian Boy</a
+          >
+        </p>
+      </div>
+      <button class="btn btn-impressum">
+        <span class="footer-text impressum">Impressum &amp; Datenschutz</span>
+      </button>
+    </footer>
+
+    <div class="overlay-mobile">
+      <img
+        src="img/rotate_white.png"
+        class="img-rotate"
+        alt="Bitte halten Sie den Bildschirm quer"
+      />
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

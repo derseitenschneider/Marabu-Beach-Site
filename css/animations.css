@@ -1,0 +1,142 @@
+/* **********************
+/* INTRO ANIMATIONS */
+/************************/
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(30vh);
+    background-color: transparent;
+    box-shadow: none;
+    color: #fff;
+  }
+
+  80% {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  100% {
+    transform: translateY(0);
+    background-color: #8e24e4;
+    /* font-size: 8.6rem; */
+  }
+}
+
+.slideup {
+  animation-name: slideUp;
+  animation-duration: 3000ms;
+  animation-delay: 2500ms;
+  animation-fill-mode: backwards;
+}
+
+@keyframes getSmallPrimary {
+  0% {
+    font-size: 10vw;
+  }
+  100% {
+    font-size: 8.6rem;
+  }
+}
+
+.get-small-primary {
+  animation-name: getSmallPrimary;
+  animation-duration: 3000ms;
+  animation-delay: 2500ms;
+  animation-fill-mode: backwards;
+}
+
+@keyframes getSmallSub {
+  0% {
+    font-size: 2vw;
+  }
+  100% {
+    font-size: 1.8rem;
+  }
+}
+
+.get-small-sub {
+  animation-name: getSmallSub;
+  animation-duration: 3000ms;
+  animation-delay: 2500ms;
+  animation-fill-mode: backwards;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  50% {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  100% {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+}
+
+.fade-out {
+  animation-name: fadeOut;
+  animation-duration: 3500ms;
+  animation-delay: 2500ms;
+  animation-fill-mode: forwards;
+}
+
+.fade-in {
+  animation-name: fadeOut;
+  animation-duration: 500ms;
+  animation-delay: 5000ms;
+  animation-direction: reverse;
+  animation-fill-mode: backwards;
+}
+
+/************************/
+/* MODAL ABOUT SLIDE IN BTN LINK */
+/************************/
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-200%);
+  }
+
+  75% {
+    transform: translateX(15%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInLeftSongs {
+  0% {
+    opacity: 0;
+    transform: translateX(-5%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.slide-in-left {
+  animation-name: slideInLeft;
+  animation-duration: 800ms;
+  animation-delay: 3500ms;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.slide-in-left-songs {
+  animation-name: slideInLeftSongs;
+  animation-duration: 800ms;
+  animation-delay: 800ms;
+  animation-timing-function: ease-out;
+  animation-fill-mode: backwards;
+}
