@@ -5,11 +5,13 @@ Main color:
 
 Side-Color:
 #2d5155;
+
 Shades
 #f4e9fc
 #b066ec
 
 Tints
+#6319a0
 #1c072e
 #8e8397
 
