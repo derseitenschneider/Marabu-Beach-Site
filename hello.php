@@ -1,10 +1,12 @@
 <?php 
 
+
+
 if(isset($_POST['name']))
 {
 $name= $_POST["name"];
 $email = $_POST["email"];
-$honeypot = $_POST["email2"];
+$honeypot = $_POST["comments_or_notesA44"];
 $message = nl2br( $_POST["message"]);
 
 $to ="brian.boy@gmx.ch";
@@ -90,11 +92,15 @@ line-height: 1.5;
 
 </html>";
 
-if ( !empty($honeypot)) {
-  return;
-} else {mail($to, $subject . $name, $mailtext, $headers);
-echo('Mail sent')}
+if ( !empty($honeypot)) 
+ {
+  return; }
+  else 
 
+  {mail($to, $subject . $name, $mailtext, $headers);
+    
 }
+}
+
 
 ?>
