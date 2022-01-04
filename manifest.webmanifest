@@ -1,4 +1,6 @@
 {
+  "name": "favicons",
+  "display": "standalone",
   "icons": [
     {
       "src": "img/Favicons/Favicon-192.png",

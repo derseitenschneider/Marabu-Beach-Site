@@ -54,7 +54,10 @@
   <body class="preload no-overflow">
     <div class="overlay-intro fade-out"></div>
     <header class="header slideup">
-      <button class="btn btn-nav btn-nav--open fade-in">
+      <button
+        aria-label="Button Navigation öffnen"
+        class="btn btn-nav btn-nav--open fade-in"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="nav-icon open-icon"
@@ -214,7 +217,10 @@
           </div>
         </div>
 
-        <button class="btn btn-close btn--close-modal">
+        <button
+          aria-label="Button Fenster schliessen"
+          class="btn btn-close btn--close-modal"
+        >
           <ion-icon name="close-outline" class="icon-close-modal"></ion-icon>
         </button>
       </div>
@@ -326,13 +332,19 @@
           </div>
         </div>
 
-        <button class="btn btn-close btn--close-modal">
+        <button
+          aria-label="Button Fenster schliessen"
+          class="btn btn-close btn--close-modal"
+        >
           <ion-icon name="close-outline" class="icon-close-modal"></ion-icon>
         </button>
       </div>
 
       <div class="modal modal--band">
-        <button class="btn btn-close btn--close-modal">
+        <button
+          aria-label="Button Fenster schliessen"
+          class="btn btn-close btn--close-modal"
+        >
           <ion-icon name="close-outline" class="icon-close-modal"></ion-icon>
         </button>
         <h2 class="heading-secondary">Die Band</h2>
@@ -475,6 +487,7 @@
                   href="http://www.juliarueffert.ch"
                   class="btn-link"
                   target="_blank"
+                  rel="noopener"
                   >Julia's Website</a
                 >
               </div>
@@ -526,6 +539,7 @@
                   href="http://www.julian-eisinger.ch"
                   class="btn-link"
                   target="_blank"
+                  rel="noopener"
                   >Julian's Website</a
                 >
               </div>
@@ -650,7 +664,10 @@
           </p>
         </div>
 
-        <button class="btn btn-close btn--close-modal">
+        <button
+          aria-label="Button Fenster schliessen"
+          class="btn btn-close btn--close-modal"
+        >
           <ion-icon name="close-outline" class="icon-close-modal"></ion-icon>
         </button>
         <iframe name="frame"></iframe>
@@ -762,7 +779,10 @@
           Besucher-Kommentare könnten von einem automatisierten Dienst zur
           Spam-Erkennung untersucht werden.
         </p>
-        <button class="btn btn-close btn--close-modal">
+        <button
+          aria-label="Button Fenster schliessen"
+          class="btn btn-close btn--close-modal"
+        >
           <ion-icon name="close-outline" class="icon-close-modal"></ion-icon>
         </button>
       </div>
@@ -782,18 +802,23 @@
           ></ion-icon
         ></a>  -->
 
-        <button class="btn btn-link--form">
+        <button
+          aria-label="Button Nachricht schicken"
+          class="btn btn-link--form"
+        >
           <ion-icon name="mail-outline" class="icon icon-mail"></ion-icon>
         </button>
       </div>
       <div class="text-row">
         <p class="footer-text">
           Marabu Beach Band &copy;
-          <script>
-            document.write(new Date().getFullYear());
-          </script>
+          <span class="current-year"></span>
           All rights reserved | Webdesign by
-          <a href="http://www.brianboy.ch" target="_blank" class="webdesign"
+          <a
+            href="http://www.brianboy.ch"
+            target="_blank"
+            rel="noopener"
+            class="webdesign"
             >Brian Boy</a
           >
         </p>

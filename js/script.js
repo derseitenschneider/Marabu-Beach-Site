@@ -12,6 +12,7 @@ const mainNavEl = document.querySelector(".main-nav");
 const mainEl = document.querySelector("main");
 const sectionMarabuEl = document.querySelector(".section-marabu");
 const footerEl = document.querySelector(".footer");
+const currentYearEl = document.querySelector(".current-year");
 
 const formEl = document.getElementById("contact-form");
 
@@ -223,6 +224,14 @@ const closeNav = function () {
   btnNavOpen.classList.toggle("hide");
   btnNavClose.classList.toggle("hide");
 };
+
+////////////////////////////////////////////////////
+//Footer
+
+//Create current year
+let date = new Date().getFullYear();
+
+currentYearEl.textContent = date;
 
 ////////////////////////////////////////////////////
 // HANDLER
