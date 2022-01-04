@@ -17,9 +17,9 @@ const formEl = document.getElementById("contact-form");
 
 //Links
 
-const facebookLink = document.querySelector(".facebook");
-const instaLink = document.querySelector(".instagram");
-const mailLink = document.querySelector(".mail");
+// const facebookLink = document.querySelector(".facebook");
+// const instaLink = document.querySelector(".instagram");
+// const mailLink = document.querySelector(".mail");
 const webdesign = document.querySelector(".webdesign");
 
 //Marabus
