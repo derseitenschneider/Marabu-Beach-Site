@@ -9,7 +9,7 @@ $email = $_POST["email"];
 $honeypot = $_POST["comments_or_notesA44"];
 $message = nl2br( $_POST["message"]);
 
-$to ="brian.boy@gmx.ch";
+$to ="janklopfenstein28@gmail.com";
 $subject = "Marabu-Beach: Neue Nachricht von ";
 $headers = "From: webmaster@marabubeach.ch\r\n";
 $headers .="Reply-To: $email\r\n";

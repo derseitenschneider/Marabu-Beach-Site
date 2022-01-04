@@ -231,7 +231,7 @@ const closeNav = function () {
 //Create current year
 let date = new Date().getFullYear();
 
-currentYearEl.textContent = date;
+currentYearEl.innerHTML = date;
 
 ////////////////////////////////////////////////////
 // HANDLER
