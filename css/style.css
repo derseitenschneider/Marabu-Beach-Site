@@ -938,7 +938,7 @@ iframe {
 
   width: 100vw;
   max-width: 200rem;
-  height: 25vh;
+  height: fit-content;
 
   display: flex;
 
