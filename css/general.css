@@ -65,6 +65,10 @@ h6 {
   -o-transition: none !important;
 }
 
+.preload .header {
+  opacity: 0;
+}
+
 *:focus {
   outline: none;
   box-shadow: 0 0 0 0.4rem rgba(244, 233, 252, 0.712);
